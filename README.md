@@ -8,4 +8,4 @@ The following demo illustrates a comparison of the method performing `GTAV → C
 
 The following demo illustrates a comparison of the method performing `Battlefield 6 → Cityscapes` (top) and `COD MWR → Cityscapes`.
 
-[Games → Cityscapes](./demo_videos/hyprgan_demo2.mp4)
+![hyprgan_demo2](https://github.com/user-attachments/assets/8dbd5e58-05eb-41b2-88ca-073f39e3604a)
