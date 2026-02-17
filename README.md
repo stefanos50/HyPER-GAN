@@ -2,10 +2,10 @@
 
 ## Demonstration
 
-The following demo illustrates a comparison of the method performing `GTAV → Cityscapes` compared to the results of NVIDIA Cosmos Transfer1.
+The following demo illustrates a comparison of our method for `GTAV → Cityscapes` with NVIDIA Cosmos Transfer1.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7808b8ff-fc26-4935-adfa-1bf22351835f" />
+  <img src="https://github.com/user-attachments/assets/5e38024b-bd63-4fa6-a3e9-e41a5f39abde" />
 </p>
 
 The following demo illustrates a comparison of the method performing `Battlefield 6 → Cityscapes` (top) and `COD MWR → Cityscapes`.
