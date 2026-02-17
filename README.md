@@ -85,6 +85,7 @@ We provide the `carla_hypergan.py` file, which can be employed to test the HyPER
 python carla_hypergan.py --ckpt ./pretrained_models/gta2cs.pth --width 1280 --height 720
 ```
 
+> 📝 **Note**: The vehicle can be moved using the WSAD keys.
 
 
 
