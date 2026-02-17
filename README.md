@@ -8,10 +8,10 @@ The following demo illustrates a comparison of our method for `GTAV → Cityscap
   <img src="https://github.com/user-attachments/assets/5e38024b-bd63-4fa6-a3e9-e41a5f39abde" />
 </p>
 
-The following demo illustrates a comparison of the method performing `Battlefield 6 → Cityscapes` (top) and `COD MWR → Cityscapes`.
+The following demo illustrates a comparison of the method performing `Battlefield 6 → Cityscapes`.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8dbd5e58-05eb-41b2-88ca-073f39e3604a" />
+  <img src="https://github.com/user-attachments/assets/e0d23b13-f7db-4b2a-8aa2-375b5c857b40" />
 </p>
 
 ## Abstract
