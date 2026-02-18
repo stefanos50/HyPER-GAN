@@ -2,7 +2,7 @@
 
 ## Demonstration
 
-The following demo illustrates a comparison of our method for `GTAV → Cityscapes` with NVIDIA Cosmos Transfer1.
+The following demo illustrates a comparison of our method for `GTA-V → Cityscapes` with NVIDIA Cosmos Transfer1.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5e38024b-bd63-4fa6-a3e9-e41a5f39abde" />
@@ -67,7 +67,7 @@ where `<path-to-rendered-dir>` contains the rendered images, `<path-to-enhanced-
 
 ## Testing
 
-To test HyPER-GAN, we provide pretrained models for `GTAV → Cityscapes` and `GTAV → Mapillary Vistas` inside the `./pretrained_models`. To execute the testing process on a directory with images, use the following command:
+To test HyPER-GAN, we provide pretrained models for `GTA-V → Cityscapes` and `GTA-V → Mapillary Vistas` inside the `./pretrained_models`. To execute the testing process on a directory with images, use the following command:
 
 ```javascript
 python main.py --mode infer --input ./test_images --ckpt ./pretrained_models/gta2cs.pth --out ./output
