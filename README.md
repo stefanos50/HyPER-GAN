@@ -14,7 +14,7 @@ The following demo illustrates a comparison of the method performing `Battlefiel
   <img src="https://github.com/user-attachments/assets/e0d23b13-f7db-4b2a-8aa2-375b5c857b40" />
 </p>
 
-The following demo illustrates a comparison of the method performing `CARLA UE5 → Cityscapes`.
+The following demo illustrates a comparison of the method performing `CARLA UE5 → Cityscapes` in real-time using an RTX 4090 GPU.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ccb921c8-570f-46b7-bf43-7c838405bf8b" />
