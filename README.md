@@ -8,18 +8,6 @@ The following demo illustrates a comparison of our method for `GTA-V → Citysca
   <img src="https://github.com/user-attachments/assets/5e38024b-bd63-4fa6-a3e9-e41a5f39abde" />
 </p>
 
-The following demo illustrates a comparison of the method performing `Battlefield 6 → Cityscapes`.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e0d23b13-f7db-4b2a-8aa2-375b5c857b40" />
-</p>
-
-The following demo illustrates a comparison of the method performing `CARLA UE5 → Cityscapes` in real-time using an RTX 4090 GPU.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ccb921c8-570f-46b7-bf43-7c838405bf8b" />
-</p>
-
 ## Abstract
 
 Generative models are widely employed to enhance the photorealism of synthetic data for training computer vision algorithms. However, they often introduce visual artifacts that degrade the accuracy of these algorithms and require high computational resources, limiting their applicability in real-time training or evaluation scenarios. In this letter, we propose Hybrid Patch Enhanced Realism Generative Adversarial Network (HyPER-GAN), a lightweight image-to-image translation framework based on a U-Net–style generator designed for real-time inference. The model is trained using paired synthetic and photorealism-enhanced images, complemented by a hybrid training strategy that incorporates matched patches from real-world data to improve visual realism and semantic consistency. Experimental results demonstrate that HyPER-GAN outperforms state-of-the-art paired image-to-image translation methods in terms of inference latency, visual realism, and semantic robustness. Moreover, it is illustrated that the proposed hybrid training strategy indeed improves visual quality and semantic consistency compared to training the model solely with paired synthetic and photorealism-enhanced images.
