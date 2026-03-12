@@ -1,5 +1,14 @@
 # HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement
 
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <a href="https://arxiv.org/abs/2603.10604" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/PAPER-blue?style=for-the-badge&logo=arxiv&logoSize=auto">
+  </a>
+  <a href="https://www.youtube.com/watch?v=ljIiQMpu1IY" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/DEMO-red?style=for-the-badge&logo=YouTube&logoSize=auto">
+  </a>
+</div>
+
 ## Demonstration
 
 The following demo illustrates a comparison of our method for `GTA-V → Cityscapes` with NVIDIA Cosmos Transfer1.
@@ -17,7 +26,15 @@ Generative models are widely employed to enhance the photorealism of synthetic d
 If you used HyPER-GAN or any of the pretrained models from this repository in a scientific publication, we would appreciate using the following citation:
 
 ```
-
+@misc{pasios2026hyperganhybridpatchbasedimagetoimage,
+      title={HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement}, 
+      author={Stefanos Pasios and Nikos Nikolaidis},
+      year={2026},
+      eprint={2603.10604},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.10604}, 
+}
 ```
 
 ## Requirements
