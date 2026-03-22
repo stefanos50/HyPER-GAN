@@ -7,6 +7,13 @@
   <a href="https://www.youtube.com/watch?v=ljIiQMpu1IY" target="_blank">
     <img alt="Static Badge" src="https://img.shields.io/badge/DEMO-red?style=for-the-badge&logo=YouTube&logoSize=auto">
   </a>
+    </a>
+    <a href="https://github.com/stefanos50/CARLA2Real" target="_blank">
+<img alt="Static Badge" src="https://img.shields.io/badge/CARLA2Real_Project-black?style=for-the-badge&logo=github&logoSize=auto">
+  </a>
+      <a href="https://github.com/stefanos50/REGEN" target="_blank">
+<img alt="Static Badge" src="https://img.shields.io/badge/REGEN_Project-black?style=for-the-badge&logo=github&logoSize=auto">
+  </a>
 </div>
 
 ## Demonstration
