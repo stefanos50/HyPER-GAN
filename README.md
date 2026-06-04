@@ -20,6 +20,10 @@
 
 The following demo illustrates a comparison of our method for `GTA-V → Cityscapes` with NVIDIA Cosmos Transfer1.
 
+https://github.com/user-attachments/assets/d790b8c7-2503-44c4-bb7b-d43f59cc3e82
+
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5e38024b-bd63-4fa6-a3e9-e41a5f39abde" />
 </p>
