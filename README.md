@@ -22,6 +22,11 @@ The following demo illustrates a comparison of our method for `GTA-V → Citysca
 
 https://github.com/user-attachments/assets/d790b8c7-2503-44c4-bb7b-d43f59cc3e82
 
+
+### Updates
+
+* **09/06/2026**: Added code for exporting the models into ONNX format. Added sample code for inference through ONNX Runtime. Added instructions for integrading the models into Unreal Engine 5.
+
 ## Abstract
 
 Generative models are widely employed to enhance the photorealism of synthetic data for training computer vision algorithms. However, they often introduce visual artifacts that degrade the accuracy of these algorithms and require high computational resources, limiting their applicability in real-time training or evaluation scenarios. In this letter, we propose Hybrid Patch Enhanced Realism Generative Adversarial Network (HyPER-GAN), a lightweight image-to-image translation framework based on a U-Net–style generator designed for real-time inference. The model is trained using paired synthetic and photorealism-enhanced images, complemented by a hybrid training strategy that incorporates matched patches from real-world data to improve visual realism and semantic consistency. Experimental results demonstrate that HyPER-GAN outperforms state-of-the-art paired image-to-image translation methods in terms of inference latency, visual realism, and semantic robustness. Moreover, it is illustrated that the proposed hybrid training strategy indeed improves visual quality and semantic consistency compared to training the model solely with paired synthetic and photorealism-enhanced images.
@@ -46,6 +51,7 @@ If you used HyPER-GAN or any of the pretrained models from this repository in a 
 
 ```
 pip install numpy torch torchvision pillow tqdm pygame
+pip install onnxruntime-gpu
 conda install -c conda-forge faiss-gpu
 ```
 
@@ -97,7 +103,28 @@ python carla_hypergan.py --ckpt ./pretrained_models/gta2cs.pth --width 1280 --he
 
 > 📝 **Note**: The vehicle can be moved using the WSAD keys.
 
+## Integration
 
+In order to easily integrate the models into your own pipelines, we provide code for transforming the models into the widely used for deployment ONNX format. To export a model into ONNX, run the following command:
+
+```javascript
+%example command
+python hypergan_onnx_eport.py --input <path-to>\gta2cs.pth --output <path-to>\gta2cs.onnx --height 1080 --width 1920
+```
+
+A sample script is also provided in `onnx_utils/test_onnx.py` to understand the preprocessing as well as the postprocessing steps that are required for inference with ONNX Runtime. To test the exported ONNX model on an image, run the following command:
+
+```javascript
+%example command
+python test_onnx.py --onnx <path-to>/gta2cs.onnx --image <path-to>/image.jpg --height 1080 --width 1920 --output <path-to>/output.jpg
+```
+### Unreal Engine 5 Integration
+
+With the release of the Unreal Engine 5 version 5.4 and above the engine now supports the real-time integration of neural rendering models through ONNX runtime. The integration requires no more than 7-8 minutes following the video tutorial: [see the tutorial here](https://www.youtube.com/watch?v=OjdG4TqBozg). Below, we provide the exact preprocessing and postprocessing steps that should be applied to the post-processing material:
+
+<img width="1644" height="748" alt="Screenshot 2026-06-08 004837" src="https://github.com/user-attachments/assets/26f857fa-a526-4311-bf2e-f19132463a49" />
+
+> 📝 Note: In Unreal Engine, the GPU will have to render both the engine's synthetic environment and run the model. At a resolution of 1920x1080, an RTX 4090 can achieve above 20 FPS when integrating HyPER-GAN into Unreal Engine 5.
 
 
 
