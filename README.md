@@ -18,13 +18,16 @@
 
 ## Demonstration
 
-The following demo illustrates a comparison of our method for `GTA-V → Cityscapes` with the inital GTA-V rendered appearance.
+The following demos illustrates a comparison of our method for `GTA-V → Cityscapes` and `GTA-V → DLSS 5.0` with the inital GTA-V rendered appearance.
 
 https://github.com/user-attachments/assets/d790b8c7-2503-44c4-bb7b-d43f59cc3e82
+
+https://github.com/user-attachments/assets/0ef52b70-74ed-44a3-8aa6-f2ef0747d396
 
 
 ### Updates
 
+* **15/11/2026**: Added trained model on the output of DLSS 5.0 for GTA-V and CARLA.
 * **09/06/2026**: Added code for exporting the models into ONNX format. Added sample code for inference through ONNX Runtime. Added instructions for integrading the models into Unreal Engine 5.
 
 ## Abstract
